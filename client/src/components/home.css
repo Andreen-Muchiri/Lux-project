@@ -20,8 +20,8 @@
   form {
     background-color: #fff;
     border-radius: 5px;
-    margin-top: 50px;
-    padding: 0 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
   }
   form input {
     padding: 10px;
@@ -39,8 +39,8 @@
     color: black;
   }
   form .box {
-    padding: 10px;
-    border-left: 0.5px solid rgba(128, 128, 128, 0.2);
+    padding: 1px 8px;
+    border-left: 5px solid rgba(128, 128, 128, 0.2);
   }
   form .box:nth-child(1) {
     border-left: none;

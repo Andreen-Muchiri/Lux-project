@@ -5,6 +5,8 @@ import Home from './components/Home';
 import Room from './components/pages/Room';
 import About from './components/About';
 import Contact from './components/Contact';
+import { BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
+
 
 
 function App() {
@@ -24,10 +26,28 @@ function App() {
             break
   }
   return (
-    <><Navbar/>
+    <>
+    {/* <Router> */}
+    <Navbar/>
    
-      <Component/>
-    
+    <Component/>
+    {/* <ul>
+            <li>
+           <Nav.Link as={Link} to= {"/home"}>Home</Nav.Link>
+           </li>
+            <li>
+           <Nav.Link as={Link} to= {"/about"}>About</Nav.Link>
+           </li>
+           </ul> */}
+{/* </Router> */}
+{/* <div>
+       <Routes>
+         <Route path="/home" element={<Home />} />
+         <Route path="/about" element={<About />} />
+         <Route path="/room" element={<Room />} />
+         <Route path="/contact" element={<Contact Us />} />
+         </Routes>
+   </div> */}
   </>
     
    
