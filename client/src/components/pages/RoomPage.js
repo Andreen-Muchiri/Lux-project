@@ -1,35 +1,51 @@
 import { useEffect, useState } from "react";
-import RoomList from "./RoomList";
-import Search from "./Search";
+
+
+// import Search from "./Search";
 
 
 function RoomPage() {
     const [rooms, setRooms] = useState([]);
-    const [searchTerm, setSearchTerm] = useState("");
+    // const [searchTerm, setSearchTerm] = useState("");
+
+    const [isBooked, setIsBooked] = useState(true);
+
+    function handleToggleBook() {
+      setIsBooked((isBooked) => !isBooked);
+    }
   
     useEffect(() => {
       // no need to use http://localhost:3000 here
       fetch("http://localhost:3000/rooms")
         .then((r) => r.json())
-        .then((roomsArray) => {
-          setRooms(roomsArray);
-        });
+        .then((data) => setRooms(data)
+        );
     }, []);
   
-    // function handleAddRoom(newRoom) {
-    //   const updatedRoomsArray = [...rooms, newRoom];
-    //   setRooms(updatedRoomsArray);
-    // }
-  
-    const displayedRooms = rooms.filter((room) => {
-      return room.name.toLowerCase().includes(searchTerm.toLowerCase());
-    });
+    
+    // const displayedRooms = rooms.filter((room) => {
+    //   return room.name.toLowerCase().includes(searchTerm.toLowerCase());
+    // });
   
     return (
       <main>
-        {/* <NewRoomForm onAddRoom={handleAddRoom} /> */}
-        <Search searchTerm={searchTerm} onSearchChange={setSearchTerm} />
-        <RoomList rooms={displayedRooms} />
+        {/* <Search searchTerm={searchTerm} onSearchChange={setSearchTerm} /> */}
+    {rooms.map((room)=> {
+      return (
+        <li key={room.id} className="card">
+        <img src={room.image} alt={room.name} />
+        <h4>{room.name}</h4>
+        <p>Price: {room.price}</p>
+        {isBooked ? (
+          <button className="primary" onClick={handleToggleBook}>
+            Book Room
+          </button>
+        ) : (
+          <button onClick={handleToggleBook}>Booked</button>
+        )}
+      </li>
+      )
+    })}
       </main>
     );
   }

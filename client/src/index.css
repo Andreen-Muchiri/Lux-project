@@ -112,11 +112,15 @@ input:focus {
 }
 
 .cards {
-  list-style: none;
+ /* display: flex;
+ flex-wrap: wrap; */
+ list-style: none;
 }
 
 .card {
   margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card img {
