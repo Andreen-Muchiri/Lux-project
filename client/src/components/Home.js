@@ -8,11 +8,17 @@ function Home(){
   const [selectedCity, setSelectedCity] = useState('');
   const [selectedRoomType, setSelectedRoomType] = useState('');
   const [selectedPrice, setSelectedPrice] = useState(''); 
+  const [selectedHotel, setSelectedHotel] = useState(''); 
 
   const handleCityChange = (event) => {
     // Update the state variable when the user changes the selection 
     setSelectedCity(event.target.value);
   };
+  const handleHotelChange = (event) => {
+    // Update the state variable when the user changes the selection 
+    setSelectedHotel(event.target.value);
+  };
+
 
   const handleRoomTypeChange = (event) => {
     // Update the state variable when the user changes the selection 
@@ -40,6 +46,18 @@ function Home(){
         <option value="ME">Meru</option>
         <option value="KIA">Kiambu</option>
 
+        {/* Add more states here... */}
+      </select>
+    </label>
+
+    <label>Hotels: 
+      <select value={selectedCity} onChange={handleHotelChange}>
+        <option value="">Select a hotel...</option>
+        <option value="NA">Sarova Hotel</option>
+        <option value="KI">Olare Mara Kempinski</option>
+        <option value="MO">Hemingways Watamu</option>
+        <option value="NA">Sovereign Suites</option>
+        
         {/* Add more states here... */}
       </select>
     </label>
@@ -72,23 +90,7 @@ function Home(){
       </select>
     </label>
   
-              <div className='box'>
-                {/* <span>City</span>
-                <input type='text' placeholder='Location' value={selectedCity} onChange={handleCityChange}/> */}
-              </div>
-              {/* <div className='box'>
-                <span>Room Type</span>
-                <input type='text' placeholder='Room Type' 
-                value={selectedRoomType} onChange={handleRoomTypeChange}/>
-                      </div> */}
-              {/* <div className='box'>
-                <span>Price Range</span>
-                <input type='text' placeholder='Price Range' 
-                value={selectedPrice} onChange={handlePriceChange}/>
-            </div> */}
-              {/* <div className='box'>
-                <h4>Advance Filter</h4>
-              </div> */}
+              
               <button className='search-btn'>
                 <i className='fa fa-search'></i>
               </button>
