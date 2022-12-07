@@ -5,6 +5,7 @@ import Home from './components/Home';
 import RoomPage from './components/pages/RoomPage';
 import About from './components/About';
 import Contact from './components/Contact';
+import Login from './components/Login';
 import { BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 
 
@@ -24,6 +25,11 @@ function App() {
             case "/contact":
             Component = Contact;
             break
+          case "/login":
+            Component = Login;
+            break
+
+
   }
   return (
     <>

@@ -14,11 +14,11 @@
         <div className='container'>
           <Heading title='Our Agency Story...' subtitle='' />
 
-          <p>We all know the struggles that we go through during house hunting, particularly on the off chance that we really can't get a home inside our set models as far as location, budget, and features are concerned.
-             Rental_Homez is a site that is very much intended to furnish clients with a more straightforward house hunting experience. The client will be in a position to get sufficient details of different houses available to be purchased or leased in view of their requirements and models.
+          <p>We all know the struggles that we go through during hotel hunting, particularly on the off chance that we really can't get a hotel inside our set models as far as location, budget, and features are concerned.
+             Lux-Hotels is a site that is very much intended to furnish clients with a more straightforward hotel hunting experience. The client will be in a position to get sufficient details of different houses available to be purchased or leased in view of their requirements and models.
   
   </p>
-              <button className='button-container'>More About Us</button>
+              {/* <button className='button-container'>More About Us</button> */}
 
         </div>
       </section>

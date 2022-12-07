@@ -9,7 +9,7 @@ function RoomPage() {
   
     useEffect(() => {
       // no need to use http://localhost:3000 here
-      fetch("/")
+      fetch("http://localhost:3000/rooms")
         .then((r) => r.json())
         .then((roomsArray) => {
           setRooms(roomsArray);
