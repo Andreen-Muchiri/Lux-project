@@ -27,7 +27,7 @@ function Home(){
               {/* <div className='box'>
                 <h4>Advance Filter</h4>
               </div> */}
-              <button className='btn1'>
+              <button className='search-btn'>
                 <i className='fa fa-search'></i>
               </button>
             </form>

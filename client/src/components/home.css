@@ -18,17 +18,29 @@
     opacity: 0.8;
   }
   form {
-    background-color: #fff;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    /* background-color: #fff;
     border-radius: 5px;
     margin-top: 10px;
-    padding: 10px 10px;
+    padding: 10px 10px; */
   }
   form input {
-    padding: 10px;
+    /* padding: 10px;
     width: 100%;
     border: 1px solid rgba(128, 128, 128, 0.2);
     margin-top: 0.5px;
-    border-radius: 0.5px;
+    border-radius: 0.5px; */
+    
+      width: 100%;
+      padding: 12px 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+      margin-bottom: 10px;
   }
   form span {
     font-size: 10px;
@@ -47,6 +59,30 @@
   }
   form h4 {
     font-weight: 500;
+  }
+
+  .search-btn {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .search-btn:hover {
+    background-color:bisque;
+    color: #fff;
+  }
+  
+  .search-btn:focus {
+    outline: none;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.4);
   }
   @media screen and (max-width: 800px) {
     .hero .container {
