@@ -13,7 +13,7 @@ code {
 } */
 
 :root {
-  --green: rgb(39, 189, 39);
+  --bisque: rgb(189, 101, 39);
 }
 
 * {
@@ -26,19 +26,19 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-h2 {
+h4 {
   margin-bottom: 1rem;
 }
 
 button {
-  padding: 0.25rem 1rem;
+  padding: 0.9rem 8rem;
   font-family: inherit;
   border: none;
   cursor: pointer;
 }
 
 button.primary {
-  background-color: var(--green);
+  background-color: var(--bisque);
   color: white;
 }
 
@@ -54,36 +54,17 @@ header h1 {
   padding: 0.5rem 0;
 }
 
-.logo {
+/* .logo {
   font-size: 1.25em;
   padding-left: 0.5rem;
   color: transparent;
   text-shadow: 0 0 0 var(--green);
-}
+} */
 
 main {
   padding: 0 1rem;
 }
 
-/* .new-p-form {
-  padding: 2rem 1rem;
-  margin: 2rem 0;
-  background-color: rgba(181, 250, 181, 0.5);
-}
-
-.new-plant-form form {
-  display: flex;
-  justify-content: center;
-}
-
-.new-plant-form input {
-  margin-right: 2rem;
-  flex: 1;
-}
-
-.new-plant-form button {
-  width: 150px;
-} */
 
 .searchbar {
   padding: 1rem;
@@ -112,9 +93,9 @@ input:focus {
 }
 
 .cards {
- /* display: flex;
- flex-wrap: wrap; */
- list-style: none;
+ display: flex;
+ flex-wrap: wrap;
+ /* list-style: none; */
 }
 
 .card {
@@ -124,11 +105,13 @@ input:focus {
 }
 
 .card img {
-  width: 100%;
+  width: 120%;
+  
 }
 
 .card button {
-  margin-top: 0.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.0rem;
 }
 
 @media (min-width: 768px) {

@@ -23,9 +23,11 @@ def create
 end
 
 # UPDATE/room/:id
-  def patch
+  def update
     room = Room.find_by(id: params[:id])
+    
     if room
+      room.update
         render json: room
     else
         render json: {error: "Room not found"}, status: :not_found
