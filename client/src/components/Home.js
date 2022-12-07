@@ -30,9 +30,22 @@ function Home(){
             <Heading title='Search For Your Next Hotel Room ' subtitle='Find new & featured hotels located in your local city.' />
   
             <form className='flex'>
+            <label>City: 
+      <select value={selectedCity} onChange={handleCityChange}>
+        <option value="">Select a city...</option>
+        <option value="NA">Nairobi</option>
+        <option value="KI">Kisumu</option>
+        <option value="MO">Mombasa</option>
+        <option value="NA">Nanyuki</option>
+        <option value="ME">Meru</option>
+        <option value="KIA">Kiambu</option>
+
+        {/* Add more states here... */}
+      </select>
+    </label>
               <div className='box'>
-                <span>City</span>
-                <input type='text' placeholder='Location' value={selectedCity} onChange={handleCityChange}/>
+                {/* <span>City</span>
+                <input type='text' placeholder='Location' value={selectedCity} onChange={handleCityChange}/> */}
               </div>
               <div className='box'>
                 <span>Room Type</span>
