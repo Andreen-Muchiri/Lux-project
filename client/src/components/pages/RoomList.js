@@ -2,11 +2,11 @@ import RoomCard from "./RoomCard";
 
 function RoomList({ rooms }) {
   return (
-    <ul className="cards">
+    <div className="cards-container" style={{display: 'flex', flexDirection: 'row'}} >
       {rooms.map((room) => {
         return <RoomCard key={room.id} room={room} />;
       })}
-    </ul>
+    </div>
   );
 }
 
