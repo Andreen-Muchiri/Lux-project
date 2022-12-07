@@ -4,7 +4,7 @@ export default function Navbar() {
         < a href = "/" className="site-title">Lux-Hotels</a>
         <ul>
             <li className="active">
-                <a href = "/home">Home</a>
+                <a href = "/">Home</a>
                 </li>
                 <li>
                 <a href = "/about">About</a>

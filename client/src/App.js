@@ -2,7 +2,7 @@
 import './App.css';
 import Navbar from './components/NavBar';
 import Home from './components/Home';
-import Room from './components/pages/Room';
+import RoomPage from './components/pages/RoomPage';
 import About from './components/About';
 import Contact from './components/Contact';
 import { BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
@@ -19,7 +19,7 @@ function App() {
         Component = About;
         break;
         case "/room":
-          Component = Room;
+          Component = RoomPage;
           break;
             case "/contact":
             Component = Contact;
