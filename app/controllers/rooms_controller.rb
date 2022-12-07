@@ -14,6 +14,7 @@ class RoomsController < ApplicationController
    else
     render json: {error: "Room Not Found"}, status: :not_found
    end
+end
 
 #    POST/room/:id
 def create
@@ -32,7 +33,7 @@ end
   end
 
 #   DESTROY/room/:id
- def DESTROY
+ def destroy
    room = Room.find_by(id: params[:id])
     if room
    room.destroy
@@ -46,7 +47,7 @@ private
 def room_params
   params.permit(:name, :image, :price)
 end
-end
+
 
 
     
