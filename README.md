@@ -1,10 +1,10 @@
-# README
+# Lux-Hotels
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project name: **Lux-Hotels.**
 
-Things you may want to cover:
+Author's name: **Andreen Muchiri**
 
+**Lux-Hotels**
 * Ruby version
 
 * System dependencies
