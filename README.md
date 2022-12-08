@@ -53,14 +53,14 @@ To start of you are required to follow the live link provided in the repository 
 
 Below are the necesities to keep note of while using this web application.
 
-       npm start --prefix client.
+         $ npm start --prefix client.
 
 1.Runs the app in the development mode.
 Open http://localhost:4000 to view it in your browser.
 
 The page will reload when you make changes.
 
-       rails s.
+          $ rails s.
 
  1.b Runs the rails backend server.
     Open http://localhost:3000/end-point to view in your browser.      
@@ -76,6 +76,38 @@ The page will reload when you make changes.
         $ bundle install.
         $ npm install --prefix client.
         
+    **USAGE.**
+
+* First click on the web link provided,
+
+* Navigate to the search-box and select a location , hotel, room type  and price range in respective searchbox.
+
+* Click on the search button to get the results of your search.
+
+* Navigate to room page and get to book a room of your liking.
+
+* Login using the login button.
+
+* For new users, sign up using the signup button.
+
+
+
+
+
+**ROADMAP.**
+
+1.Home .
+
+2.About Us.
+
+3.Room.
+
+4.Contact .
+
+5.Login.
+
+6.SignUp.
+    
         
 
 
