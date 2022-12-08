@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-// first install bootstrap
-// npm install -save bootstrap
-// then install react dom
-// npm install --save react-router-dom
+import "./login.css"
+
 function Login(props) {
-  // form input controls
+
   
   let [user, setUser] = useState([]);
   const [state, setState] = useState({
@@ -121,4 +119,6 @@ function Login(props) {
   
   );
 }
+
+
 export default Login;

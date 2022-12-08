@@ -7,13 +7,13 @@
     width: 100%;
   }
   .home .container {
-    padding-top: 20%;
+    padding-top: 10%;
     
   }
   .form-container{
     width: 500px;
     background-Color: '#cccccc';
-    padding: 50px;
+    padding: 10px;
   }
   .home h1 {
     color: #fff;

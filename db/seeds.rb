@@ -11,21 +11,21 @@ Room.create!([
   {
     name: 'Two bedroom',
     image: 'https://images.unsplash.com/photo-1605346576608-92f1346b67d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
-    price: 15.99
+    price: 150.99
   },
   {
     name: 'Studio room',
-    image: 'https://unsplash.com/photos/pSDe7ePo0Tc',
-    price: 25.98
+    image: 'https://images.unsplash.com/photo-1605346576608-92f1346b67d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    price: 250.98
   },
   {
     name: 'Master Ensuite',
-    image: 'https://unsplash.com/photos/Pzm3VIXHH6g',
-    price: 5.99
+    image: 'https://images.unsplash.com/photo-1605346576608-92f1346b67d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    price: 50.99
   },
   {
     name: 'Single room',
-    image: 'https://unsplash.com/photos/XTC538P_eWk',
+    image: 'https://images.unsplash.com/photos/XTC538P_eWk',
     price: 12.11
   },
 #   {
@@ -36,7 +36,7 @@ Room.create!([
 #   },
   {
     name: 'Double bed room',
-    image: 'https://unsplash.com/photos/P6B7y6Gnyzw',
+    image: 'https://images.unsplash.com/photo-1605346576608-92f1346b67d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
     price: 25.99
   },
   {

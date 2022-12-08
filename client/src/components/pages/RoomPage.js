@@ -35,7 +35,7 @@ function RoomPage() {
         <li key={room.id} className="card">
         <img src={room.image} alt={room.name} />
         <h4>{room.name}</h4>
-        <p>Price: {room.price}</p>
+        <h4>Price: {room.price}</h4>
         {isBooked ? (
           <button className="primary" onClick={handleToggleBook}>
             Book Room
