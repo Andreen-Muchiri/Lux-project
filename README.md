@@ -27,3 +27,22 @@ This is an online hotel-hunting site that allows clients  who are looking forwar
 
 * ...
 
+**ABOUT THE PROJECT.**
+
+Lux-Hotels  is an internet based hotel accommodation search site  that aims to ensure that hotel-hunting experience has been made easier by providing an extensive range of information on hotels available for accommodation.
+
+**BUILT WITH.**
+
+* CSS
+
+* React.js
+
+* JSX
+
+* Netlify
+
+* Railway.App
+
+* Ruby on Rails API
+
+
