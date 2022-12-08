@@ -55,18 +55,18 @@ Below are the necesities to keep note of while using this web application.
 
          $ npm start --prefix client.
 
-1.Runs the app in the development mode.
+* Runs the app in the development mode.
 Open http://localhost:4000 to view it in your browser.
 
 The page will reload when you make changes.
 
           $ rails s.
 
- 1.b Runs the rails backend server.
+ *  Runs the rails backend server.
     Open http://localhost:3000/end-point to view in your browser.      
 
 
-2.Clone the repo;
+ * Clone the repo;
    https://github.com/Andreen-Muchiri/Lux-project.git
 
   To get setup run;
@@ -96,31 +96,31 @@ The page will reload when you make changes.
 
 **ROADMAP.**
 
-1.Home .
+* Home .
 
-2.About Us.
+* About Us.
 
-3.Room.
+* Room.
 
-4.Contact .
+* Contact .
 
-5.Login.
+* Login.
 
-6.SignUp.
+* SignUp.
     
         **CONTRIBUTIONS.**
 
 Feel free to make any contributions to this project.Your contributions will be recieved with much appreciation. For any suggestions that would improve this project,kindly fork the repo and create a pull request.
 
-1.Fork the Project.
+* Fork the Project.
 
-2.Create your Feature Branch (git checkout -b feature/feature).
+* Create your Feature Branch (git checkout -b feature/feature).
 
-3.Commit your Changes (git commit -m 'Add some feature').
+* Commit your Changes (git commit -m 'Add some feature').
 
-4.Push to the Branch (git push origin feature/feature).
+* Push to the Branch (git push origin feature/feature).
 
-5.Open a Pull Request.
+* Open a Pull Request.
 
 **LICENSE.**
 
