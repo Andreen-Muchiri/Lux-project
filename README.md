@@ -76,7 +76,7 @@ The page will reload when you make changes.
         
     
     
-    <!-- **USAGE.** -->
+   
 **USAGE.**
 * First click on the web link provided,
 
