@@ -45,4 +45,37 @@ Lux-Hotels  is an internet based hotel accommodation search site  that aims to e
 
 * Ruby on Rails API
 
+**GETTING STARTED.**
+
+To start of you are required to follow the live link provided in the repository description (Link provided),then go ahead and type in the search section.
+
+**PREREQUISITES.**
+
+Below are the necesities to keep note of while using this web application.
+
+       npm start --prefix client.
+
+1.Runs the app in the development mode.
+Open http://localhost:4000 to view it in your browser.
+
+The page will reload when you make changes.
+
+       rails s.
+
+ 1.b Runs the rails backend server.
+    Open http://localhost:3000/end-point to view in your browser.      
+
+
+2.Clone the repo;
+   https://github.com/Andreen-Muchiri/Lux-project.git
+
+  To get setup run;
+
+       
+
+        $ bundle install.
+        $ npm install --prefix client.
+        
+        
+
 
