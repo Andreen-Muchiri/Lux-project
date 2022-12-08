@@ -71,15 +71,13 @@ The page will reload when you make changes.
 
   To get setup run;
 
-       
-
-        $ bundle install.
-        $ npm install --prefix client.
+       $ bundle install.
+       $ npm install --prefix client.
         
     
     
-    **USAGE.**
-
+    <!-- **USAGE.** -->
+**USAGE.**
 * First click on the web link provided,
 
 * Navigate to the search-box and select a location , hotel, room type  and price range in respective searchbox.
