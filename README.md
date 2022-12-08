@@ -108,6 +108,38 @@ The page will reload when you make changes.
 
 6.SignUp.
     
-        
+        **CONTRIBUTIONS.**
+
+Feel free to make any contributions to this project.Your contributions will be recieved with much appreciation. For any suggestions that would improve this project,kindly fork the repo and create a pull request.
+
+1.Fork the Project.
+
+2.Create your Feature Branch (git checkout -b feature/feature).
+
+3.Commit your Changes (git commit -m 'Add some feature').
+
+4.Push to the Branch (git push origin feature/feature).
+
+5.Open a Pull Request.
+
+**LICENSE.**
+
+Distributed under the MIT License.See LICENSE.txt for more information.
+
+
+**CONTACT ME.**
+
+Name- Andreen Muchiri -andymuchiri@gmail.com
+
+Project-link: https://github.com/Andreen-Muchiri/Lux-project.git
+
+
+
+
+**ACKNOWLEDGEMENT.**
+
+To start of is lots of gratitude to my Moringa School Technical Mentor- **Beatrice Wambui.** -who has been very supportive through this whole process.She has guided me through everything diligently and ensured that I get to deliver my very best.
+
+
 
 
