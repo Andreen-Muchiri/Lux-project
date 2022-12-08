@@ -8,20 +8,22 @@ Author's name: **Andreen Muchiri**
 
 This is an online hotel-hunting site that allows clients  who are looking forward to going for a vacation or even need accommodation during business trips, get access to information about hotels near their locations and those that fit their needs.It frees one off the stress that comes along with searching for hotel accommodation.
 
-* Ruby version
+**Table of Contents.**
+* About The Project.
 
-* System dependencies
+* Built With.
 
-* Configuration
+* Getting Started.
 
-* Database creation
+* Prerequisites.
 
-* Database initialization
+* Usage
 
-* How to run the test suite
+* Roadmap.
 
-* Services (job queues, cache servers, search engines, etc.)
+* Contributions.
 
-* Deployment instructions
+* License
 
 * ...
+
