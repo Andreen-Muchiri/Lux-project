@@ -5,6 +5,8 @@ import Home from './components/Home';
 import RoomPage from './components/pages/RoomPage';
 import About from './components/About';
 import Contact from './components/Contact';
+import Login from './components/Login'
+import SignUp from './components/SignUp';
 // import Login from './components/Login';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 
@@ -20,6 +22,9 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/room' element={<RoomPage />} />
           <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<SignUp/>} />
       </Routes>
       <About />
       <Contact />
