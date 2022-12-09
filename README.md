@@ -58,9 +58,9 @@ Below are the necesities to keep note of while using this web application.
 
 and the server-side/back-end repository,
 
-   https://github.com/Andreen-Muchiri/Lux-project.git
+      https://github.com/Andreen-Muchiri/Lux-project.git
 
-* On the client side repository (https://github.com/Andreen-Muchiri/ Lux-project-client.git),run;
+* On the client side repository (https://github.com/Andreen-Muchiri/Lux-project-client.git),run;
 
          $ npm start 
 
@@ -86,9 +86,11 @@ and the server-side/back-end repository,
 
   To get setup run;
    * For the server-side/backend;
+
        $ bundle install.
 
    * For the client-side/frontend 
+   
        $ npm install 
         
     
