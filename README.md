@@ -90,7 +90,7 @@ and the server-side/back-end repository,
        $ bundle install.
 
    * For the client-side/frontend 
-   
+
        $ npm install 
         
     
@@ -148,7 +148,7 @@ Distributed under the MIT License.See LICENSE.txt for more information.
 
 **CONTACT ME.**
 
-Name- Andreen Muchiri -andymuchiri@gmail.com
+Name- Andreen Muchiri -andreenshii@gmail.com
 
 Project-link: https://github.com/Andreen-Muchiri/Lux-project.git- Back-end
 
