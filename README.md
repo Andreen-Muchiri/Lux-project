@@ -156,6 +156,9 @@ Project-link: https://github.com/Andreen-Muchiri/Lux-project.git- Back-end
 
 Project-link:  https://github.com/Andreen-Muchiri/Lux-project-client.git -Front-end
 
+Front-end link: http://lux-hotels.vercel.app/
+Back-end link: https://lux-hotels-production.up.railway.app/rooms
+
 
 **ACKNOWLEDGEMENT.**
 
