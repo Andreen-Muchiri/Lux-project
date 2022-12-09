@@ -52,27 +52,44 @@ To start of you are required to follow the live link provided in the repository 
 **PREREQUISITES.**
 
 Below are the necesities to keep note of while using this web application.
+* The application contains two repositories,the client-side/front-end repository, 
 
-         $ npm start --prefix client.
+   https://github.com/Andreen-Muchiri/Lux-project-client.git
 
-* Runs the app in the development mode.
-Open http://localhost:4000 to view it in your browser.
+and the server-side/back-end repository,
 
-The page will reload when you make changes.
+   https://github.com/Andreen-Muchiri/Lux-project.git
+
+* On the client side repository (https://github.com/Andreen-Muchiri/ Lux-project-client.git),run;
+
+         $ npm start 
+
+* This command runs the app in the development mode.
+  Open http://localhost:4000 to view it in your browser.
+
+  The page will automatically reload when you make changes.
+
+* On the server-side repository,
+(https://github.com/Andreen-Muchiri/Lux-project.git),run;
 
           $ rails s.
 
- *  Runs the rails backend server.
+ * This command runs the rails backend server.
     Open http://localhost:3000/end-point to view in your browser.      
 
 
  * Clone the repo;
-   https://github.com/Andreen-Muchiri/Lux-project.git
+   https://github.com/Andreen-Muchiri/Lux-project.git,the backend repository.
+
+  https://github.com/Andreen-Muchiri/Lux-project-client.git, client-side repository.
+   
 
   To get setup run;
-
+   * For the server-side/backend;
        $ bundle install.
-       $ npm install --prefix client.
+
+   * For the client-side/frontend 
+       $ npm install 
         
     
     
@@ -131,9 +148,9 @@ Distributed under the MIT License.See LICENSE.txt for more information.
 
 Name- Andreen Muchiri -andymuchiri@gmail.com
 
-Project-link: https://github.com/Andreen-Muchiri/Lux-project.git
+Project-link: https://github.com/Andreen-Muchiri/Lux-project.git- Back-end
 
-
+Project-link:  https://github.com/Andreen-Muchiri/Lux-project-client.git -Front-end
 
 
 **ACKNOWLEDGEMENT.**
