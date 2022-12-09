@@ -39,7 +39,7 @@ Lux-Hotels  is an internet based hotel accommodation search site  that aims to e
 
 * JSX
 
-* Netlify
+* Versel
 
 * Railway.App
 
