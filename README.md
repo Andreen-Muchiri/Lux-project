@@ -87,11 +87,11 @@ and the server-side/back-end repository,
   To get setup run;
    * For the server-side/backend;
 
-       $ bundle install.
+             $ bundle install.
 
    * For the client-side/frontend 
 
-       $ npm install 
+              $ npm install 
         
     
     
@@ -127,7 +127,9 @@ and the server-side/back-end repository,
 
 * SignUp.
     
-        **CONTRIBUTIONS.**
+        
+        
+**CONTRIBUTIONS.**
 
 Feel free to make any contributions to this project.Your contributions will be recieved with much appreciation. For any suggestions that would improve this project,kindly fork the repo and create a pull request.
 
